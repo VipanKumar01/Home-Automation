@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Automation </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Home Automation - Control Lights</h1>
+        <form id="control-form">
+            <div class="light-control">
+                <input type="checkbox" id="light1" name="light1">
+                <label for="light1">Light 1</label>
+                <input type="radio" id="light1-on" name="light1-state" value="HIGH" disabled>
+                <label for="light1-on">ON</label>
+                <input type="radio" id="light1-off" name="light1-state" value="LOW" disabled>
+                <label for="light1-off">OFF</label>
+            </div>
+            <div class="light-control">
+                <input type="checkbox" id="light2" name="light2">
+                <label for="light2">Light 2</label>
+                <input type="radio" id="light2-on" name="light2-state" value="HIGH" disabled>
+                <label for="light2-on">ON</label>
+                <input type="radio" id="light2-off" name="light2-state" value="LOW" disabled>
+                <label for="light2-off">OFF</label>
+            </div>
+            <div class="light-control">
+                <input type="checkbox" id="light3" name="light3">
+                <label for="light3">Light 3</label>
+                <input type="radio" id="light3-on" name="light3-state" value="HIGH" disabled>
+                <label for="light3-on">ON</label>
+                <input type="radio" id="light3-off" name="light3-state" value="LOW" disabled>
+                <label for="light3-off">OFF</label>
+            </div>
+            <button type="button" id="send-signal">SEND SIGNAL</button>
+        </form>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
